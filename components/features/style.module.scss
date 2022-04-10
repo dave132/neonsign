@@ -1,0 +1,19 @@
+.features_section {
+  .feature {
+    text-align: center;
+    margin: 3.5rem 0;
+    border-color: black;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    .border {
+      padding: 3rem 30px !important;
+      border-right: 1px solid;
+      border-left: 1px solid;
+    }
+    h6 {
+      font-weight: 600;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+  }
+}

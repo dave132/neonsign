@@ -1,0 +1,14 @@
+.CouponsBar_link {
+  background: url("/assets/images/ads_bar_sm.webp");
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  display: flex;
+  height: 24.19vw;
+}
+@media all and (min-width: 767px) {
+  .CouponsBar_link {
+    height: 8vw;
+    background: url("/assets/images/ads_bar_lg.webp");
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Custom Your Own Neon",
+    "rating": 5,
+    "reviews": 67,
+    "price": 0
+  },
+  {
+    "id": 2,
+    "name": "Better Together-Neon Signs-Wedding Decoration - Warmwhite",
+    "rating": 5,
+    "reviews": 9,
+    "discount": 30,
+    "oldPrice": 199,
+    "price": 149
+  },
+  {
+    "id": 3,
+    "name": "Bride & Groom Initials Custom Heart-Neon Sign-wedding decor",
+    "rating": 5,
+    "reviews": 7,
+    "price": 98
+  },
+  {
+    "id": 4,
+    "name": "Happy Birthday - Coolwhite",
+    "rating": 5,
+    "reviews": 2,
+    "price": 148
+  },
+  {
+    "id": 5,
+    "name": "Good Vibes Only Neon Sign-Neon Wall Art-Home Decoration - Pink",
+    "rating": 5,
+    "reviews": 2,
+    "price": 156
+  },
+  {
+    "id": 6,
+    "name": "This Must Be The Place Neon Sign - Orange",
+    "rating": 0,
+    "price": 158
+  },
+  {
+    "id": 7,
+    "name": "Playboy Neon Signs - Pink",
+    "rating": 5,
+    "reviews": 1,
+    "price": 136
+  },
+  {
+    "id": 8,
+    "name": "Happy Birthday Neon Birthday Sign - Coolwhite",
+    "rating": 5,
+    "reviews": 8,
+    "price": 144
+  },
+  {
+    "id": 9,
+    "name": "Let's Party Neon Sign-Party Neon Lamp-Bar Pub Wall Decor - Pink",
+    "rating": 5,
+    "reviews": 5,
+    "price": 149
+  },
+  {
+    "id": 10,
+    "name": "This Must Be The Place-Neon Sign-Home Room Neon Wall Art Decoration",
+    "rating": 5,
+    "reviews": 3,
+    "price": 152
+  },
+  {
+    "id": 11,
+    "name": "This Is Where The Magic Happens-Neon Sign-Wall Decor Neon Light - Purple",
+    "rating": 5,
+    "reviews": 2,
+    "price": 175
+  },
+  {
+    "id": 12,
+    "name": "Angel Wings Neon Signs Light - Coolwhite",
+    "rating": 5,
+    "reviews": 2,
+    "price": 295
+  },
+  {
+    "id": 13,
+    "name": "Hello Gorgeous Neon Signs-Salon Office Decor - Pink",
+    "rating": 5,
+    "reviews": 8,
+    "price": 146
+  },
+  {
+    "id": 14,
+    "name": "Please Don't Do Coke In The Bathroom-Led Sign For Bedroom-Wall Decor - Blue",
+    "rating": 5,
+    "reviews": 1,
+    "price": 158
+  },
+  {
+    "id": 15,
+    "name": "It Was Always You Neon Sign-Engagment Neon Light-Wedding Decor - Warm",
+    "rating": 5,
+    "reviews": 1,
+    "price": 142
+  },
+  {
+    "id": 16,
+    "name": "Til Death Do Us Party-Neon Signs-Wedding Decor - Red",
+    "rating": 5,
+    "reviews": 2,
+    "price": 169
+  },
+
+  {
+    "id": 17,
+    "name": "Akatsuki Naruto Anime Neon Sign - Red",
+    "rating": 5,
+    "reviews": 1,
+    "price": 97
+  },
+  {
+    "id": 18,
+    "name": "All You Need Is Love-Neon Sign-Wedding,Home Decor - Pink",
+    "rating": 5,
+    "reviews": 5,
+    "price": 159
+  },
+  {
+    "id": 19,
+    "name": "Til Death LED Neon Signs-Wall Decor-Wedding Birthday Party Decoration - Red",
+    "rating": 5,
+    "reviews": 5,
+    "price": 154
+  },
+  {
+    "id": 20,
+    "name": "Love You More Neon Sign Lights-Wedding Decoration-Room Wall Decor",
+    "rating": 5,
+    "reviews": 3,
+    "price": 159
+  },
+  {
+    "id": 21,
+    "name": "Good Vibes Only-Neon Sign-Wedding Decor - Warmwhite",
+    "rating": 4,
+    "reviews": 3,
+    "price": 189
+  },
+  {
+    "id": 22,
+    "name": "Happy Birthday LED Neon Sign Light - Blue",
+    "rating": 0,
+    "price": 159
+  },
+  {
+    "id": 23,
+    "name": "EYE Neon Sign - Pink",
+    "rating": 0,
+    "price": 138
+  },
+  {
+    "id": 24,
+    "name": "Happily Ever After-NeonSign-Wedding Decor - Coolwhite",
+    "rating": 5,
+    "reviews": 9,
+    "price": 158
+  }
+]

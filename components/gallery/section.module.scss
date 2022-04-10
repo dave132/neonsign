@@ -1,0 +1,123 @@
+@import "../../styles/variables.scss";
+.gallery_grid {
+  .gallery_grid_img_wrapper {
+    background-color: rgb(233, 233, 233);
+    position: relative;
+  }
+  min-height: 480vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    "grid_1 grid_2"
+    "grid_3 grid_3"
+    "grid_3 grid_3"
+    "grid_4 grid_5"
+    "grid_6 grid_7"
+    "grid_8 grid_9"
+    "grid_10 grid_10"
+    "grid_10 grid_10"
+    "grid_11 grid_12"
+    "grid_13 grid_14";
+}
+.grid_1 {
+  grid-area: grid_1;
+}
+.grid_2 {
+  grid-area: grid_2;
+}
+.grid_3 {
+  grid-area: grid_3;
+}
+.grid_4 {
+  grid-area: grid_4;
+}
+.grid_5 {
+  grid-area: grid_5;
+}
+.grid_6 {
+  grid-area: grid_6;
+}
+.grid_7 {
+  grid-area: grid_7;
+}
+.grid_8 {
+  grid-area: grid_8;
+}
+.grid_9 {
+  grid-area: grid_9;
+}
+.grid_10 {
+  grid-area: grid_10;
+}
+.grid_11 {
+  grid-area: grid_11;
+}
+.grid_12 {
+  grid-area: grid_12;
+}
+.grid_13 {
+  grid-area: grid_13;
+}
+.grid_14 {
+  grid-area: grid_14;
+}
+
+@media all and (min-width: 767px) {
+  .gallery_grid {
+    min-height: 75vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+      "grid_1 grid_5 grid_9 grid_9 grid_11"
+      "grid_2 grid_6 grid_9 grid_9 grid_12"
+      "grid_3 grid_7 grid_10 grid_10 grid_13"
+      "grid_4 grid_8 grid_10 grid_10 grid_14";
+
+    .grid_1 {
+      grid-area: grid_1;
+    }
+    .grid_2 {
+      grid-area: grid_2;
+    }
+    .grid_3 {
+      grid-area: grid_3;
+    }
+    .grid_4 {
+      grid-area: grid_4;
+    }
+    .grid_5 {
+      grid-area: grid_5;
+    }
+    .grid_6 {
+      grid-area: grid_6;
+    }
+    .grid_7 {
+      grid-area: grid_7;
+    }
+    .grid_8 {
+      grid-area: grid_8;
+    }
+    .grid_9 {
+      grid-area: grid_9;
+    }
+    .grid_10 {
+      grid-area: grid_10;
+    }
+    .grid_11 {
+      grid-area: grid_11;
+    }
+    .grid_12 {
+      grid-area: grid_12;
+    }
+    .grid_13 {
+      grid-area: grid_13;
+    }
+    .grid_14 {
+      grid-area: grid_14;
+    }
+  }
+}

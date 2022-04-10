@@ -1,0 +1,57 @@
+@import "../../styles/variables.scss";
+.shop_section {
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/assets/images/shop_bg_lg.webp");
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  color: $bg_color;
+  p,
+  h1 {
+    text-shadow: 1px 1px 10px #000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: 800;
+  }
+  .cta_btn {
+    background-color: #202020;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 1000px;
+    padding: 0.8rem 1.75rem;
+    font-size: 12px;
+    display: inline-flex;
+    transition: all linear 0.3s;
+    &:hover {
+      color: #000;
+      background-color: $bg_color;
+    }
+  }
+}
+@media all and (max-width: 767px) {
+  .shop_section {
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url("/assets/images/shop_bg_sm.webp");
+  }
+}
+@media all and (min-width: 575px) {
+  .shop_section {
+    p,
+    h1 {
+      font-size: 24px;
+    }
+    h1 {
+      font-size: 4em;
+    }
+    .cta_btn {
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+.cart_modal_wrapper {
+  padding: 1rem;
+  width: 360px !important;
+  background-color: #fff !important;
+  height: 100vh !important;
+}
+.modal_title {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.modal_close_btn {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.cta_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.75rem;
+  margin: 1.5rem 0.5rem;
+  border: 1px solid $yellow_color;
+  transition: all linear 0.3s;
+  &:hover {
+    background-color: $yellow_color;
+  }
+}
+@media all and (max-width: 450px) {
+  .cart_modal_wrapper {
+    width: 300px !important;
+  }
+}

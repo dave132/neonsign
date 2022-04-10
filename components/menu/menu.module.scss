@@ -1,0 +1,70 @@
+@import "../../styles/variables.scss";
+
+.menu {
+  padding: 0;
+  margin: 0;
+  background-color: $bg_color;
+  .social_links_list {
+    display: flex;
+    color: $gray_color;
+    a {
+      margin: 0 1rem;
+      font-size: 16px;
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+  }
+  .list_title {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  span {
+    color: $gray_color;
+  }
+  .menu_links_list {
+    display: flex;
+    flex-direction: column;
+    .list_item {
+      text-transform: capitalize;
+      color: $gray_color;
+      margin: 0.2rem 0;
+      .list_link {
+        padding: 0.2rem 0;
+        display: inline-flex;
+      }
+    }
+  }
+  .signup_form_wrapper {
+    form {
+      display: flex;
+      flex-direction: column;
+      input {
+        width: 100%;
+        outline: none;
+        border: 1px solid $yellow_color;
+        padding: 0.75rem 1.25rem;
+        border-radius: 5px;
+        margin: 1rem 0;
+        &::placeholder {
+          color: black;
+          text-transform: capitalize;
+        }
+      }
+      button {
+        all: unset;
+        cursor: pointer;
+        background-color: $yellow_color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 0.85rem;
+        border-radius: 5px;
+      }
+    }
+  }
+}

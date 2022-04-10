@@ -1,0 +1,28 @@
+.mob_nav_menu_wrapper {
+  width: 270px !important;
+  background-color: #fff !important;
+  height: 100vh !important;
+}
+.close_modal_btn {
+  background-color: #202020;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 2rem;
+}
+.mob_nav_list {
+  .link {
+    font-weight: 600;
+    text-transform: capitalize;
+    display: flex;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid rgb(219, 219, 219);
+  }
+}
+@media all and (min-width: 450px) {
+  .mob_nav_menu_wrapper {
+    width: 320px !important;
+  }
+}

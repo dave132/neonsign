@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+.cta_btn {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #202020;
+  padding: 0.75rem;
+  display: flex;
+  width: 100%;
+  max-width: 220px;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.25s;
+  &:hover {
+    color: $bg_color;
+    background-color: #202020;
+  }
+  &:disabled {
+    background-color: #707070;
+    border-color: #707070;
+    color: #fff;
+    cursor: not-allowed;
+  }
+}
